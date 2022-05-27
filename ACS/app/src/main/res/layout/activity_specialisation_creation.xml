@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_blank"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    tools:context=".SpecialisationCreation">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:text="Specialisations"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:paddingLeft="100dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="Select all that apply:"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:text="Abuse"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:text="Anxiety"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:text="Body Image"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:text="Depression"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:text="Eating Disorder"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:text="Grief and Loss"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:text="Homesickness"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:text="Insomnia"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:text="Prejudice and Discrimination"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:text="Self-injury"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:minHeight="48dp"
+        android:text="Sexual Assault and Rape"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/check12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#8EAFD5"
+        android:text="Suicidal Ideation"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="8dp">
+
+        <Button
+            android:id="@+id/StartHelping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="createSpecialisation"
+            android:text="Start Helping"
+            tools:backgroundTint="#8EAFD5" />
+    </LinearLayout>
+
+</LinearLayout>

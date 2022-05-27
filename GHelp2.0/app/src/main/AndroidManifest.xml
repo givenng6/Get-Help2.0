@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acs" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ACS" >
+        <activity
+            android:name=".PatientHome"
+            android:exported="false" />
+        <activity
+            android:name=".AssignedCounsellor"
+            android:exported="false" />
+        <activity
+            android:name=".SpecialisationCreation"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpCounsellor"
+            android:exported="false" />
+        <activity
+            android:name=".PatientList"
+            android:exported="false" />
+        <activity
+            android:name=".PatientChat"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileCreation"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpPatient"
+            android:exported="false" />
+        <activity
+            android:name=".SignInPatient"
+            android:exported="false" />
+        <activity
+            android:name=".SignInCounsellor"
+            android:exported="false" />
+        <activity
+            android:name=".SignInPatient1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

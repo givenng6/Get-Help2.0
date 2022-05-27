@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/acme</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/alata</item>
+        <item>@font/allan</item>
+        <item>@font/amiko</item>
+        <item>@font/andika</item>
+        <item>@font/cedarville_cursive</item>
+        <item>@font/charm</item>
+        <item>@font/condiment</item>
+        <item>@font/gothic_a1</item>
+        <item>@font/gothic_a1_black</item>
+        <item>@font/gothic_a1_semibold</item>
+    </array>
+</resources>
